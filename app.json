@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Home Rentals",
+    "slug": "home-rentals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "homerentals",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#2563EB"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.homerentals.app"
+    },
+    "android": {
+      "package": "com.homerentals.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#2563EB"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
